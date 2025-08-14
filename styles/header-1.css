@@ -22,7 +22,14 @@
       padding-bottom: 0; } }
 @media (min-width: 600px) {
   .nav__wrapper {
-    display: flex; } }
+    display: flex; }
+.site-header {
+ height: 50px;
+ line-height: 50px; 
+   }
+
+
+}
 
 @media (max-width: 599px) {
   .nav__wrapper {
@@ -52,4 +59,5 @@
       display: block;
       position: absolute;
       right: 1rem;
+
       top: 1rem; } }
