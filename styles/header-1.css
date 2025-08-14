@@ -32,6 +32,11 @@
 }
 
 @media (max-width: 599px) {
+.site-header {
+ height: 50px;
+ line-height: 50px; 
+   }
+  
   .nav__wrapper {
     position: absolute;
     top: 100%;
@@ -61,3 +66,4 @@
       right: 1rem;
 
       top: 1rem; } }
+
