@@ -23,20 +23,9 @@
 @media (min-width: 600px) {
   .nav__wrapper {
     display: flex; }
-.site-header {
- height: 70px;
-
-   }
-
-
 }
 
-@media (max-width: 599px) {
-.site-header {
- height: 70px;
- 
-   }
-  
+@media (max-width: 599px) { 
   .nav__wrapper {
     position: absolute;
     top: 100%;
@@ -66,5 +55,6 @@
       right: 1rem;
 
       top: 1rem; } }
+
 
 
