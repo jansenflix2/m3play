@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://vjs.zencdn.net/8.23.3/video-js.css" rel="stylesheet" />
+<link rel="stylesheet" href="styles/reset.min.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/header-1.css" />
+
+  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+  <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
+
+</head>
+<style>
+
+body{
+background-color: rgba(125,176,19);
+
+}
+
+#my-video{
+background-color: rgba(0, 0, 0, 0.926);
+   position: absolute;  
+    width: 600px;
+    height: 300px;
+     left: 50%;
+     top: 45%;
+     transform: translate(-50%, -50%);
+}
+video::cue {
+font-size: 100%;
+color: #FFFF00 !important;
+background-color: transparent;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media(max-width: 600px){
+#my-video{
+width: 350px;
+ height: 200px;
+}
+body{
+background-color: rgba(125,176,194);
+
+}
+
+
+}
+
+
+
+
+</style>
+<body>
+
+ <!-- Header Start -->
+    <header class="site-header">
+      <div class="wrapper site-header__wrapper">
+        <a href="#" class="brand">FILMES</a>
+        <nav class="nav">
+          <button class="nav__toggle" aria-expanded="false" type="button">
+            menu
+          </button>
+          <ul class="nav__wrapper">
+            <li class="nav__item"><a href="#">Home</a></li>
+            <li class="nav__item"><a href="#">About</a></li>
+            
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Header End -->
+
+  <video
+    id="my-video"
+    class="video-js"
+    controls
+    preload="auto"
+    poster="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/04/escudo_flamengo-e1743527217989.jpg"
+    data-setup="{}"
+  >
+    <source src="https://nw21.seedr.cc/media/video/lq_hls/a8c64cc80f8242b80d1243befc2b9705a9035626/vid.m3u8?dvr" type="application/x-mpegURL"/>
+    <source src="MY_VIDEO.webm" type="video/webm" />
+   <track kind="subtitles" src="https://raw.githubusercontent.com/jansenflix/legenda/main/Halo.S01E01.1080p.vtt" srclang="pt" label="Português"> 
+            <track kind="subtitles" src="" srclang="en" label="Inglês">
+    
+  </video>
+ <script src="js/header-1.js"></script>
+  <script src="https://vjs.zencdn.net/8.23.3/video.min.js"></script>
+</body>
+</html>
