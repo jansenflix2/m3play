@@ -7,8 +7,11 @@
   font-size: 20px; }
 
 .site-header {
-  font-size: 60px;
-  height: 100px;
+  .caixa-header{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
   position: relative;
   background-color: #def7ff; }
 
@@ -57,6 +60,7 @@
       right: 1rem;
 
       top: 1rem; } }
+
 
 
 
