@@ -11,9 +11,10 @@
     position: relative;
     width: 940px;
     margin: 0 auto;
+     position: relative;
+  background-color: #def7ff;}
 }
-  position: relative;
-  background-color: #def7ff; }
+
 
 .site-header__wrapper {
   padding-top: 1rem;
@@ -60,6 +61,7 @@
       right: 1rem;
 
       top: 1rem; } }
+
 
 
 
