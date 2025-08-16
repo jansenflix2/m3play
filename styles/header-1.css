@@ -15,7 +15,7 @@
 .site-header__wrapper {
   padding-top: 1rem;
   padding-bottom: 1rem; 
-width: 95%;}
+ height: 95%;}
   @media (min-width: 600px) {
     
     .site-header__wrapper {
@@ -60,6 +60,7 @@ width: 95%;}
       right: 1rem;
 
       top: 1rem; } }
+
 
 
 
