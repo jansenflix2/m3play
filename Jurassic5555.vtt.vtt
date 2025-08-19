@@ -1,10 +1,11 @@
 ﻿WEBVTT
-::cue {
-  color: white;
+STYLE
+::cue(i) {
+  color: yellow;
   background-color: rgb(0 0 0 / 60%);
 }
 00:00:45.545 --> 00:00:50.467
-17 anos atrás...
+<i>17 anos atrás...</i>
 
 00:01:32.884 --> 00:01:34.636
 Ilha de St. Hubert
@@ -4560,3 +4561,4 @@ JURASSIC WORLD: IMPLEMENTAÇÃO
 02:13:32.762 --> 02:13:34.723
 
 Tradução e adaptação: Companhia das Palavras
+
