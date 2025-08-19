@@ -1,5 +1,8 @@
 ﻿WEBVTT
-
+::cue {
+  color: white;
+  background-color: rgb(0 0 0 / 60%);
+}
 00:00:45.545 --> 00:00:50.467
 17 anos atrás...
 
@@ -4555,4 +4558,5 @@ BASEADO NOS PERSONAGENS CRIADOS POR MICHAEL CRICHTON
 JURASSIC WORLD: IMPLEMENTAÇÃO
 
 02:13:32.762 --> 02:13:34.723
+
 Tradução e adaptação: Companhia das Palavras
