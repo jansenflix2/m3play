@@ -31,14 +31,7 @@ background-color: rgba(0, 0, 0, 0.926);
      top: 45%;
      transform: translate(-50%, -50%);
 }
-video::cue !important {
-font-size: 100%;
-color: #FFFF00 !important;
-line-height: 150%;
-text-shadow: 2px 2px 2px #000, -1px 1px 1px #000, 1px -1px 1px #000,-1px -1px 1px #000;
-background-color: transparent;
-font-weight: bold;
-}
+
   @media screen and (max-width: 468px){
     
     #my-video{
@@ -89,7 +82,7 @@ font-weight: bold;
   >
     <source src="https://rd19.seedr.cc/media/video/lq_hls/5e1cebe6bec8b43f7e567c2d65152f7749537483/vid.m3u8?dvr" type="application/x-mpegURL"/>
     <source src="MY_VIDEO.webm" type="video/webm" />
-   <track style="background-color: transparent"; kind="subtitles" src="https://raw.githubusercontent.com/jansenflix2/m3play/refs/heads/main/Jurassic5555.vtt.vtt" srclang="pt" label="Português"> 
+   <track kind="subtitles" src="https://raw.githubusercontent.com/jansenflix2/m3play/refs/heads/main/Jurassic5555.vtt.vtt" srclang="pt" label="Português"> 
             <track kind="subtitles" src="" srclang="en" label="Inglês">
     
   </video>
@@ -98,6 +91,7 @@ font-weight: bold;
 </body>
 
 </html>
+
 
 
 
